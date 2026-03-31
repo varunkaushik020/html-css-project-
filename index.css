@@ -49,7 +49,7 @@ nav button {
     z-index: 10;
 }
 
-.hero {
+.signup {
     font-family: 'Martel Sans', sans-serif;
     height: calc(100% - 100px);
     display: flex;
@@ -62,20 +62,20 @@ nav button {
     padding: 0 30px;
 }
 
-.hero> :nth-child(1) {
+.signup> :nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
 }
 
-.hero> :nth-child(2) {
+.signup> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
 
-.hero> :nth-child(3) {
+.signup> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
@@ -113,7 +113,7 @@ nav button {
     color: white;
 }
 
-.hero-buttons {
+.signup-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,7 +129,7 @@ nav button {
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
-.first {
+.enjoy {
     display: flex;
     justify-content: center;
     max-width: 70vw;
@@ -158,19 +158,19 @@ nav button {
     width: 555px;
 }
 
-section.first>div {
+section.enjoy>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0;
 }
 
-section.first>div :nth-child(1) {
+section.enjoy>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 }
 
 
-section.first>div :nth-child(2) {
+section.enjoy>div :nth-child(2) {
     font-size: 24px;
 
 }
@@ -181,7 +181,7 @@ section.first>div :nth-child(2) {
         max-width: 90vw;
     }
 
-    .first {
+    .enjoy {
         flex-wrap: wrap;
     }
 
@@ -193,19 +193,19 @@ section.first>div :nth-child(2) {
         width: 305px;
     }
 
-    .hero> :nth-child(1) {
+    .signup> :nth-child(1) {
         font-size: 32px;
     }
 
-    .hero> :nth-child(2) {
+    .signup> :nth-child(2) {
         font-size: 18px;
     }
 
-    .hero> :nth-child(3) {
+    .signup> :nth-child(3) {
         font-size: 18px;
     }
 
-    .hero-buttons {
+    .signup-buttons {
         display: flex;
         flex-direction: column;
         align-items: center;
